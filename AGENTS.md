@@ -10,6 +10,8 @@
 
 - No build or test scripts are defined in this repo.
 - If you generate artifacts locally (e.g., PDFs), keep them out of version control unless explicitly requested.
+- PDF export (bilingual files): use `pandoc` with the `typst` engine and resource path so images resolve, e.g. `pandoc 02-Part_Two/02-Part_Two-bilingual.md -o 02-Part_Two/02-Part_Two-bilingual.pdf --resource-path=02-Part_Two:assets --pdf-engine=typst --template=02-Part_Two/typst-template.typ`.
+- Typst template settings (see `02-Part_Two/typst-template.typ`): `PingFang MO` font, `text` size 12pt, and paragraph leading 0.8em to avoid line overlap.
 
 ## Content Style & Naming Conventions
 
