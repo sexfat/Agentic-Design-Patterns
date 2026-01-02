@@ -33,3 +33,4 @@
 
 - This repository is a curated book text; prioritize accuracy and formatting stability.
 - Avoid bulk formatting changes unless explicitly requested.
+- Part Four bilingual translation lives in `04-Part_Four/04-Part_Four-bilingual.md`; keep English then Chinese line-by-line, preserve code blocks, and prefer autolinks for URLs containing `__main__.py` to avoid typst parsing issues.
